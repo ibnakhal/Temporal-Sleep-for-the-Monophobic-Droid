@@ -26,9 +26,9 @@ public class Teleporter : MonoBehaviour {
     {
         if(open && Other.tag == "Player")
         {
+            Other.transform.position = exit.position;
             Other.transform.rotation = exit.rotation;
 
-            //Other.transform.position = exit.position;
             //Other.transform.Rotate(exit.forward);
         }
     }

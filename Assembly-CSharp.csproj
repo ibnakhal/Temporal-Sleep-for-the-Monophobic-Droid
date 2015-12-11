@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{D7B69E5C-A5EA-B963-3486-BD6BD326985A}</ProjectGuid>
+	<ProjectGuid>{A79E882A-48D4-9532-E771-F4133C8AF53D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,6 +66,7 @@
      <Compile Include="Assets\Scripts\World\CaptureTrigger.cs" />
      <Compile Include="Assets\Scripts\World\Doors.cs" />
      <Compile Include="Assets\Scripts\World\Laser.cs" />
+     <Compile Include="Assets\Scripts\World\OnOff.cs" />
      <Compile Include="Assets\Scripts\World\Spawner.cs" />
      <Compile Include="Assets\Scripts\World\Teleporter.cs" />
      <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
@@ -95,13 +96,13 @@
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderCore-Unity5">
- <HintPath>C:/Users/inakhal2/Desktop/By the Clock!V10/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ <HintPath>C:/Users/inakhal2/Documents/GitHub/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderMeshOps-Unity5">
- <HintPath>C:/Users/inakhal2/Desktop/By the Clock!V10/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ <HintPath>C:/Users/inakhal2/Documents/GitHub/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="KDTree">
- <HintPath>C:/Users/inakhal2/Desktop/By the Clock!V10/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
+ <HintPath>C:/Users/inakhal2/Documents/GitHub/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
@@ -112,7 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5F313EBC-2558-73C8-BD7D-6BF561E54EB0}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{9DA64051-FCC6-A643-0CA3-44E841365A2B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
