@@ -27,7 +27,7 @@ public class EnemyAI : MonoBehaviour {
 
 
     void Start () {
-        StartCoroutine(ZeroOut());
+        //StartCoroutine(ZeroOut());
         lockedSpeed = speed;
         Player = GameObject.FindGameObjectWithTag("MainCamera").transform;
         active = true;
@@ -48,7 +48,8 @@ public class EnemyAI : MonoBehaviour {
             {
                 SmoothLook(Player.transform.position - this.transform.position);
             }
-            rigB.AddRelativeForce(Vector3.forward * Time.deltaTime * speed * 1.5f);
+            rigB.velocity = Vector3.zero;
+            rigB.AddRelativeForce(Vector3.forward * speed);
         }
 
 
@@ -64,7 +65,7 @@ public class EnemyAI : MonoBehaviour {
         while (active)
         {
             yield return new WaitForSeconds(0.01f);
-            if (rigB.velocity.x > maxV)
+           /* if (rigB.velocity.x > maxV)
             {
                 rigB.velocity = new Vector3(maxV, rigB.velocity.y, rigB.velocity.z);
             }
@@ -75,7 +76,9 @@ public class EnemyAI : MonoBehaviour {
             if (rigB.velocity.z > maxV)
             {
                 rigB.velocity = new Vector3(rigB.velocity.x, rigB.velocity.y, maxV);
-            }
+            }*/
+            //rigB.velocity = Vector3.zero;
+            //rigB.AddRelativeForce(Vector3.forward * speed);
         }
     }
 
