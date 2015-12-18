@@ -91,11 +91,17 @@
      <None Include="Assets\ProCore\ProBuilder\readme.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\ProCore\ProBuilder\About\Credits.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Unity 5_2_2/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity 5_2_2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>D:/Unity 5_2_2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Unity 5_2_2/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderCore-Unity5">
  <HintPath>C:/Users/INAKHAL2/Documents/GitHub/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
