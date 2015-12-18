@@ -114,13 +114,13 @@
  <HintPath>D:/Unity 5_2_2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderCore-Unity5">
- <HintPath>C:/Users/Inakhal2/Desktop/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
+ <HintPath>C:/Users/INAKHAL2/Documents/GitHub/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ProBuilderCore-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderMeshOps-Unity5">
- <HintPath>C:/Users/Inakhal2/Desktop/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
+ <HintPath>C:/Users/INAKHAL2/Documents/GitHub/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ProBuilderMeshOps-Unity5.dll</HintPath>
  </Reference>
  <Reference Include="KDTree">
- <HintPath>C:/Users/Inakhal2/Desktop/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
+ <HintPath>C:/Users/INAKHAL2/Documents/GitHub/Temporal-Sleep-for-the-Monophobic-Droid/Assets/ProCore/ProBuilder/Classes/ClassesLib/KDTree.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>D:/Unity 5_2_2/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
