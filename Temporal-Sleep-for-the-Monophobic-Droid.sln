@@ -1,11 +1,11 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{DF2314A1-653F-1E6D-03BE-A558F467C437}") = "Temporal-Sleep-for-the-Monophobic-Droid", "Assembly-CSharp-firstpass.csproj", "{9DA64051-FCC6-A643-0CA3-44E841365A2B}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporal-Sleep-for-the-Monophobic-Droid.CSharp.Plugins", "Temporal-Sleep-for-the-Monophobic-Droid.CSharp.Plugins.csproj", "{19B259F0-96ED-9E28-F77A-B4CE2871EAD3}"
 EndProject
-Project("{DF2314A1-653F-1E6D-03BE-A558F467C437}") = "Temporal-Sleep-for-the-Monophobic-Droid", "Assembly-CSharp.csproj", "{A79E882A-48D4-9532-E771-F4133C8AF53D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporal-Sleep-for-the-Monophobic-Droid.CSharp", "Temporal-Sleep-for-the-Monophobic-Droid.CSharp.csproj", "{69431FBB-881D-7F23-7633-3A9B629443E8}"
 EndProject
-Project("{DF2314A1-653F-1E6D-03BE-A558F467C437}") = "Temporal-Sleep-for-the-Monophobic-Droid", "Assembly-CSharp-Editor.csproj", "{1AF8D046-DF0F-60E7-DBA2-8447CCA3B69E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporal-Sleep-for-the-Monophobic-Droid.CSharp.Editor", "Temporal-Sleep-for-the-Monophobic-Droid.CSharp.Editor.csproj", "{D7A3A5E5-2744-E40F-EEFE-FAC569DFFA0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,40 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9DA64051-FCC6-A643-0CA3-44E841365A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9DA64051-FCC6-A643-0CA3-44E841365A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9DA64051-FCC6-A643-0CA3-44E841365A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9DA64051-FCC6-A643-0CA3-44E841365A2B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A79E882A-48D4-9532-E771-F4133C8AF53D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A79E882A-48D4-9532-E771-F4133C8AF53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A79E882A-48D4-9532-E771-F4133C8AF53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A79E882A-48D4-9532-E771-F4133C8AF53D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1AF8D046-DF0F-60E7-DBA2-8447CCA3B69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1AF8D046-DF0F-60E7-DBA2-8447CCA3B69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1AF8D046-DF0F-60E7-DBA2-8447CCA3B69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1AF8D046-DF0F-60E7-DBA2-8447CCA3B69E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B259F0-96ED-9E28-F77A-B4CE2871EAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B259F0-96ED-9E28-F77A-B4CE2871EAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B259F0-96ED-9E28-F77A-B4CE2871EAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B259F0-96ED-9E28-F77A-B4CE2871EAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69431FBB-881D-7F23-7633-3A9B629443E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69431FBB-881D-7F23-7633-3A9B629443E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69431FBB-881D-7F23-7633-3A9B629443E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69431FBB-881D-7F23-7633-3A9B629443E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A3A5E5-2744-E40F-EEFE-FAC569DFFA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A3A5E5-2744-E40F-EEFE-FAC569DFFA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A3A5E5-2744-E40F-EEFE-FAC569DFFA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A3A5E5-2744-E40F-EEFE-FAC569DFFA0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																		GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
-		Policies = $0
-		$0.TextStylePolicy = $1
-		$1.inheritsSet = null
-		$1.scope = text/x-csharp
-		$0.CSharpFormattingPolicy = $2
-		$2.inheritsSet = Mono
-		$2.inheritsScope = text/x-csharp
-		$2.scope = text/x-csharp
-		$0.TextStylePolicy = $3
-		$3.FileWidth = 120
-		$3.TabWidth = 4
-		$3.IndentWidth = 4
-		$3.EolMarker = Unix
-		$3.inheritsSet = Mono
-		$3.inheritsScope = text/plain
-		$3.scope = text/plain
-	EndGlobalSection
-
 EndGlobal
